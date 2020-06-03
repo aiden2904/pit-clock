@@ -1,0 +1,95 @@
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 45px;
+    font-family: 'Montserrat', serif;
+    font-weight: 700;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    font-size: 45px;
+    font-family: 'Montserrat', serif;
+    font-weight: 600;
+}
+
+p {
+    text-align: center;
+    color: #000000;
+    font-size: 30px;
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+}
+
+a {
+    color: white;
+    font-family: "Roboto";
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+button {
+    border-style: solid;
+    border-width: 1%;
+    border-color: #000000;
+    background-color: #BE2026;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    bottom: 4%;
+    right: 2%; 
+}
+
+table, th, td {
+    border-style: solid;
+    border-color: black;
+    border-width: 1%;
+    color: white;
+    font-family: "Roboto";
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    height: 15%;
+}
+
+#clock {
+    font-size: 75px;
+}
+
+#time-label {
+    position: absolute;
+    bottom: 80px;
+    right: 20px;
+    text-align: right;
+    font-size: 25px;
+    font-family: "Roboto";
+}
+
+#time {
+    padding-bottom: 0;
+    padding-right: 0; 
+    position: absolute;
+    bottom: 40px;
+    text-align: right;
+    right: 20px;
+}
+
+.blue {
+    background-color: #2A397C;
+}
+
+.red {
+    background-color: #BE2026;
+}

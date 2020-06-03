@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pit Clock</title>
+    <link href="style.css" rel="stylesheet">
+    <meta name="viewpoint" content="width=device-width, intitial-scale=1.0">
+    <script src="sketch.js"></script>
+    <script src="data.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+</head>
+
+<body style="background-color:#ffffff"> 
+    <img src="robotics_logo.svg " style="width: 10%; margin-left:auto; margin-right: auto; display: block;">
+    <h1 id="event">No event</h1>
+    <p>Time Until Next Match:</p>
+    <h1 id="clock">No Matches Left</h1>
+    <p id="match">No Matches Left</p>
+    <table>
+        <tr>
+            <th class="red">
+                Red Teams
+            </th>
+            <th class="blue">
+                Blue Teams
+            </th>
+        </tr>
+        <tr>
+            <td class="red">
+                <a href="https://www.thebluealliance.com/team/5587 " style="display:block" id="team1" target="_blank">5587</a>
+            </td>
+            <td class="blue">
+                <a href="https://www.thebluealliance.com/team/5587 " style="display:block" id="team4" target="_blank">5587</a>
+            </td>
+        </tr>
+        <tr>
+            <td class="red">
+                <a href="https://www.thebluealliance.com/team/5587 " style="display:block" id="team2" target="_blank">5587</a>
+            </td>
+            <td class="blue" >
+                <a href="https://www.thebluealliance.com/team/5587 " style="display:block" id="team5" target="_blank">5587</a>
+            </td>
+        </tr>
+        <tr>
+            <td class="red">
+                <a href="https://www.thebluealliance.com/team/5587 " style="display:block" id="team3" target="_blank">5587</a>
+            </td>
+            <td class="blue">
+                <a href="https://www.thebluealliance.com/team/5587 " style="display:block" id="team6" target="_blank">5587</a>
+            </td>
+        </tr>
+    </table>
+    <p id="time-label">Current time:</p>
+    <p id="time">Time does not exist</p>
+    <button type="button" onclick="getMatchData()">Reload TBA Data</button>
+</body>
+
+</html>
